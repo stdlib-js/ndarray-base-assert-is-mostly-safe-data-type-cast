@@ -41,7 +41,8 @@
   "dependencies": {
     "@stdlib/ndarray-dtypes": "^0.1.0",
     "@stdlib/ndarray-mostly-safe-casts": "github:stdlib-js/ndarray-mostly-safe-casts#main",
-    "@stdlib/utils-library-manifest": "^0.1.1"
+    "@stdlib/utils-library-manifest": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-square": "^0.1.0",

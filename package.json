@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-mostly-safe-data-type-cast",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Determine if an ndarray data type can be safely cast or, for floating-point data types, downcast to another ndarray data type.",
   "license": "Apache-2.0",
   "author": {

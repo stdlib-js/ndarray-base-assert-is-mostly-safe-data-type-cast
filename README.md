@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@deno/mod.js';
+import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@v0.1.0-deno/mod.js';
 ```
 
 #### isMostlySafeCast( from, to )
@@ -90,7 +90,7 @@ bool = isMostlySafeCast( 'float64', 'int32' );
 ```javascript
 import cartesianSquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-square@deno/mod.js';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@deno/mod.js';
+import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@v0.1.0-deno/mod.js';
 
 // Generate a list of dtype pairs:
 var pairs = cartesianSquare( dtypes() );

@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast/tags). For example,
+
+```javascript
 import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@v0.1.0-esm/index.mjs';
 ```
 
@@ -95,7 +100,7 @@ bool = isMostlySafeCast( 'float64', 'int32' );
 
 import cartesianSquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-square@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
-import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@v0.1.0-esm/index.mjs';
+import isMostlySafeCast from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast@esm/index.mjs';
 
 // Generate a list of dtype pairs:
 var pairs = cartesianSquare( dtypes() );

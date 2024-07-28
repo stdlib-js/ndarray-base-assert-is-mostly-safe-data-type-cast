@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-mostly-safe-data-type-cast",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Determine if an ndarray data type can be safely cast or, for floating-point data types, downcast to another ndarray data type.",
   "license": "Apache-2.0",
   "author": {
@@ -40,16 +40,16 @@
   },
   "dependencies": {
     "@stdlib/ndarray-dtypes": "^0.2.1",
-    "@stdlib/ndarray-mostly-safe-casts": "^0.2.1",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/ndarray-mostly-safe-casts": "^0.3.0",
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-cartesian-square": "^0.2.1",
-    "@stdlib/assert-is-boolean": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",

@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,28 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { DataType } from '@stdlib/types/ndarray';
 
 /**
-* Determine if an ndarray data type can be safely cast or, for floating-point data types, downcast to another ndarray data type.
+* Returns a boolean indicating if a provided ndarray data type can be safely cast or, for floating-point data types, downcast to another ndarray data type.
 *
-* @module @stdlib/ndarray-base-assert-is-mostly-safe-data-type-cast
+* @param from - ndarray data type
+* @param to - ndarray data type
+* @returns boolean indicating if a data type can be cast to another data type
 *
 * @example
-* var isMostlySafeCast = require( '@stdlib/ndarray-base-assert-is-mostly-safe-data-type-cast' );
-*
 * var bool = isMostlySafeCast( 'float32', 'float64' );
 * // returns true
 *
 * bool = isMostlySafeCast( 'float64', 'int32' );
 * // returns false
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function isMostlySafeCast( from: DataType, to: DataType ): boolean;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = isMostlySafeCast;

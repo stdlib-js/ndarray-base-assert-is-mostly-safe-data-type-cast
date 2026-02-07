@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-mostly-safe-data-type-cast",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Determine if an ndarray data type can be safely cast or, for floating-point data types, downcast to another ndarray data type.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-dtype-resolve-str": "^0.3.0",
+    "@stdlib/ndarray-base-dtype-resolve-str": "^0.3.1",
     "@stdlib/ndarray-dtypes": "^0.4.0",
     "@stdlib/ndarray-mostly-safe-casts": "^0.4.0",
     "@stdlib/types": "^0.4.3",
@@ -47,10 +47,10 @@
   },
   "devDependencies": {
     "@stdlib/array-cartesian-square": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/dstructs-struct": "^0.1.0",
-    "@stdlib/ndarray-base-dtype-str2enum": "^0.2.2",
-    "@stdlib/ndarray-base-dtype-strings": "^0.1.0",
+    "@stdlib/ndarray-base-dtype-str2enum": "^0.2.3",
+    "@stdlib/ndarray-base-dtype-strings": "^0.1.1",
     "@stdlib/ndarray-dtype-ctor": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
